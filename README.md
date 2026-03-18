@@ -37,7 +37,20 @@ Simulate customer-reported issues and demonstrate step-by-step diagnosis & resol
 5. Run `EXPLAIN ANALYZE` queries
 
 ## Screenshots
-(Add 4-5 screenshots here later — RDS console, EXPLAIN output, slow query fix, IAM policy)
+## Screenshots
+
+### 1. RDS PostgreSQL Instance Details
+![RDS Instance](screenshots/rds-instance.png)
+
+### 2. EXPLAIN ANALYZE – Slow Query Diagnosis & Fix
+![EXPLAIN ANALYZE Output](screenshots/explain-analyze.png)
+
+### 3. VPC Security Group Rules (Port 5432 for RDS)
+![Security Group Inbound Rules](screenshots/security-group.png)
+
+*(Optional)*  
+### 4. Graphical Query Plan View
+![Graphical EXPLAIN](screenshots/explain-graphical.png)
 
 ## Technologies
 AWS RDS PostgreSQL • VPC • IAM Database Auth • EXPLAIN/ANALYZE • JSONB • Full-text search • Parameter Groups
