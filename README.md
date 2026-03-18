@@ -48,9 +48,7 @@ Simulate customer-reported issues and demonstrate step-by-step diagnosis & resol
 ### 3. VPC Security Group Rules (Port 5432 for RDS)
 ![Security Group Inbound Rules](screenshots/security-group.png)
 
-*(Optional)*  
-### 4. Graphical Query Plan View
-![Graphical EXPLAIN](screenshots/explain-graphical.png)
+
 
 ## Technologies
 AWS RDS PostgreSQL • VPC • IAM Database Auth • EXPLAIN/ANALYZE • JSONB • Full-text search • Parameter Groups
